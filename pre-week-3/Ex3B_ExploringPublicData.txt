@@ -1,0 +1,38 @@
+1. What is data.gov? 
+
+data.gov is a website or a tool where data analysts or even anyone looking for data that is structured, organized and reliable then Data.gov is the answer.
+
+2. How many datasets are listed in “Most Viewed Datasets”?
+402,374 datasets
+
+3. Human Health category:
+Why are these datasets tagged this way?
+
+this category's are tagged that wat to make it easier to find health related data. 
+
+4. Food Price Outlook:
+How can you find more USDA datasets?
+
+you can use other additional data bases by searching the organazation name and other relevant data which will help  you get more data from the same source 
+
+5. Datasets by Organization:
+What organizations appear when you search your location?
+
+when you search by organization the you'll find data locally ,state wise and federal.
+
+6. USDA search:
+What happens when you search “food composition” vs “nutrition”?
+
+when you search food composition the results are more specific and when you search for nutrition the results are more broad. this shows the use of using or choosing the right words because it highly affects your search results.
+
+7. Reliability of search:
+What challenge does this show?
+
+Its challenging because different terms have different search results even thought the words might mean the same thing. data analysts should be creative and pick between the rubbles.
+
+8. Food Data Central:
+a) What results do you get when searching foods?
+b) What type of data is available for download?
+
+the search resulted in meal program, fruit and vegetable prices, wheat data..etc
+
