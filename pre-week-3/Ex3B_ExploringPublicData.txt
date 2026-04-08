@@ -8,7 +8,7 @@ data.gov is a website or a tool where data analysts or even anyone looking for d
 3. Human Health category:
 Why are these datasets tagged this way?
 
-this category's are tagged that wat to make it easier to find health related data. 
+this category's are tagged that way to make it easier to find health related data. 
 
 4. Food Price Outlook:
 How can you find more USDA datasets?
