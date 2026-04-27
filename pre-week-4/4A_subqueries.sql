@@ -70,4 +70,21 @@ WHERE sl.State = 'Maine'
 GROUP BY p.Product
 ORDER BY Total_Revenue DESC
 LIMIT 10;
+-- Learning Note: Compare Maine territory revenue to total Northeast region revenue
+SELECT 
+    'Maine Territory' AS Analysis_Level,
+    SUM(ss.Sale_Amount) AS Total_Revenue
+FROM Store_Sales ss
+JOIN Store_Locations sl ON ss.Store_ID = sl.StoreId
+WHERE sl.State = 'Maine'
+
+UNION ALL
+
+SELECT 
+    'Northeast Region' AS Analysis_Level,
+    SUM(ss.Sale_Amount) AS Total_Revenue
+FROM Store_Sales ss
+JOIN Store_Locations sl ON ss.Store_ID = sl.StoreId
+JOIN management m ON sl.State = m.State
+WHERE m.Region = 'Northeast';
 
