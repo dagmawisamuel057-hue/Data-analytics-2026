@@ -59,3 +59,15 @@ JOIN inventory_categories ic ON isc.Categoryid = ic.Categoryid
 WHERE sl.State = 'Maine'
 GROUP BY ic.Category
 ORDER BY Total_Revenue DESC;
+-- Learning Note: Identify top-performing products in Maine
+SELECT 
+    p.Product,
+    SUM(ss.Sale_Amount) AS Total_Revenue
+FROM Store_Sales ss
+JOIN Store_Locations sl ON ss.Store_ID = sl.StoreId
+JOIN Products p ON ss.Prod_Num = p.ProdNum
+WHERE sl.State = 'Maine'
+GROUP BY p.Product
+ORDER BY Total_Revenue DESC
+LIMIT 10;
+
